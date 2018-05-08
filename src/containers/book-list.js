@@ -27,4 +27,5 @@ function mapStateToProps(state) {
   }
 }
 
+console.log('here', mapStateToProps)
 export default connect(mapStateToProps)(BookList)
